@@ -1,9 +1,7 @@
 "use client";
 import { useState } from "react";
 import toast from "react-hot-toast";
-
-toast.success("Login successful!");
-toast.error("Invalid credentials");
+import { Toaster } from "react-hot-toast";
 
 
 export default function LoginPage() {
@@ -16,14 +14,18 @@ export default function LoginPage() {
 
     // Demo login logic (replace with Firebase/Auth later)
     if (email === "test@test.com" && password === "Test1234") {
+      toast.success("Login successful!");
       window.location.href = "/"; // navigate to Home
     } else {
+      toast.error("Invalid credentials");
       setError("Invalid email or password");
     }
   };
 
   return (
-    <div className="max-w-md mx-auto mt-20 p-8 border rounded-xl shadow-lg bg-white">
+    <>
+      <Toaster position="top-center" />
+      <div className="max-w-md mx-auto mt-20 p-8 border rounded-xl shadow-lg bg-white">
       <h1 className="text-3xl font-bold mb-6 text-center text-indigo-600">🔐 Login</h1>
       <form onSubmit={handleLogin} className="flex flex-col gap-4">
         <input type="email" name="email" placeholder="Email" required className="border p-3 rounded" />
@@ -40,6 +42,7 @@ export default function LoginPage() {
       <button className="mt-6 w-full bg-red-500 text-white py-2 rounded hover:bg-red-600 transition">
         Continue with Google
       </button>
-    </div>
+      </div>
+    </>
   );
 }
