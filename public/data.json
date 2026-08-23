@@ -6,9 +6,9 @@
     "duration": "20 hours",
     "rating": 4.8,
     "level": "Beginner",
-    "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.postimg.cc/example-course1.png",
-    "category": "Development"
+    "description": "Learn full‑stack web development from scratch using HTML, CSS, JavaScript, and modern frameworks.",
+    "image": "/course/course1.jpg",
+    "categoryId": 1
   },
   {
     "id": 2,
@@ -17,9 +17,9 @@
     "duration": "25 hours",
     "rating": 4.7,
     "level": "Intermediate",
-    "description": "Master data analysis, visualization, and machine learning using Python.",
-    "image": "https://i.postimg.cc/example-course2.png",
-    "category": "Data Science"
+    "description": "Master data analysis, visualization, and machine learning using Python libraries like Pandas and Scikit‑learn.",
+    "image": "/course/course2.jpg",
+    "categoryId": 2
   },
   {
     "id": 3,
@@ -28,9 +28,9 @@
     "duration": "15 hours",
     "rating": 4.6,
     "level": "Beginner",
-    "description": "Learn the principles of user interface and user experience design.",
-    "image": "https://i.postimg.cc/example-course3.png",
-    "category": "Design"
+    "description": "Learn the principles of user interface and user experience design with Figma and Adobe XD.",
+    "image": "/course/course3.jpg",
+    "categoryId": 3
   },
   {
     "id": 4,
@@ -39,9 +39,9 @@
     "duration": "18 hours",
     "rating": 4.9,
     "level": "Advanced",
-    "description": "Build modern, responsive web apps using React and Tailwind CSS.",
-    "image": "https://i.postimg.cc/example-course4.png",
-    "category": "Development"
+    "description": "Build modern, responsive web apps using React, Tailwind CSS, and component‑based architecture.",
+    "image": "/course/course4.jpg",
+    "categoryId": 1
   },
   {
     "id": 5,
@@ -50,9 +50,9 @@
     "duration": "22 hours",
     "rating": 4.8,
     "level": "Intermediate",
-    "description": "Understand AI concepts, neural networks, and real-world applications.",
-    "image": "https://i.postimg.cc/example-course5.png",
-    "category": "AI"
+    "description": "Understand AI concepts, neural networks, and real‑world applications through hands‑on projects.",
+    "image": "/course/course5.jpg",
+    "categoryId": 4
   },
   {
     "id": 6,
@@ -61,8 +61,8 @@
     "duration": "12 hours",
     "rating": 4.5,
     "level": "Beginner",
-    "description": "Learn how to build and customize WordPress websites with ease.",
-    "image": "https://i.postimg.cc/example-course6.png",
-    "category": "Development"
+    "description": "Learn how to build and customize WordPress websites with themes, plugins, and page builders.",
+    "image": "/course/course6.jpg",
+    "categoryId": 1
   }
 ]

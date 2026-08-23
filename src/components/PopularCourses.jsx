@@ -1,7 +1,7 @@
-const PopularCourses = async () => {
-  const response = await fetch("https://assignment-8-nine-xi.vercel.app/data.json");
-  const data = await response.json();
-  const popularCourses = data.slice(0, 3);
+import courses from "../../public/data.json";
+
+const PopularCourses = () => {
+  const popularCourses = courses.slice(0, 3);
 
   return (
     <div className="popular-courses w-max mx-auto py-16">
