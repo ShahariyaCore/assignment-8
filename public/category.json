@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Development",
+    "description": "Courses focused on web, mobile, and software development.",
+    "image": "https://i.postimg.cc/category-development.png"
+  },
+  {
+    "id": 2,
+    "name": "Data Science",
+    "description": "Learn data analysis, visualization, and machine learning techniques.",
+    "image": "https://i.postimg.cc/category-datascience.png"
+  },
+  {
+    "id": 3,
+    "name": "Design",
+    "description": "UI/UX, graphic design, and creative tools for digital products.",
+    "image": "https://i.postimg.cc/category-design.png"
+  },
+  {
+    "id": 4,
+    "name": "AI",
+    "description": "Artificial Intelligence, deep learning, and neural networks.",
+    "image": "https://i.postimg.cc/category-ai.png"
+  },
+  {
+    "id": 5,
+    "name": "Marketing",
+    "description": "Digital marketing, SEO, social media, and branding strategies.",
+    "image": "https://i.postimg.cc/category-marketing.png"
+  },
+  {
+    "id": 6,
+    "name": "Cybersecurity",
+    "description": "Protect systems, networks, and data from cyber threats.",
+    "image": "https://i.postimg.cc/category-cybersecurity.png"
+  },
+  {
+    "id": 7,
+    "name": "Cloud Computing",
+    "description": "Learn AWS, Azure, Google Cloud, and scalable infrastructure.",
+    "image": "https://i.postimg.cc/category-cloud.png"
+  }
+]

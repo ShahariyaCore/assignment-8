@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Data Science with Python",
+    "instructor": "Jane Smith",
+    "duration": "25 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master data analysis, visualization, and machine learning using Python.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Data Science"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Essentials",
+    "instructor": "Michael Brown",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn the principles of user interface and user experience design.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "React & Tailwind Masterclass",
+    "instructor": "Emily Johnson",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Build modern, responsive web apps using React and Tailwind CSS.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Artificial Intelligence Fundamentals",
+    "instructor": "David Lee",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Understand AI concepts, neural networks, and real-world applications.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "AI"
+  },
+  {
+    "id": 6,
+    "title": "WordPress for Beginners",
+    "instructor": "Sophia Martinez",
+    "duration": "12 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn how to build and customize WordPress websites with ease.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "Development"
+  }
+]
