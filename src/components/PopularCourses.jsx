@@ -1,3 +1,4 @@
+import Link from "next/link";
 import courses from "../../public/data.json";
 
 const PopularCourses = () => {
@@ -34,9 +35,12 @@ const PopularCourses = () => {
                 ⭐ Rating: {course.rating}
               </p>
 
-              <button className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-6 py-2 rounded-lg shadow-md hover:scale-105 transition-transform font-semibold">
+              <Link
+                href={`/courses/${course.id}`}
+                className="inline-block bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white px-6 py-2 rounded-lg shadow-md hover:scale-105 transition-transform font-semibold"
+              >
                 Enroll Now
-              </button>
+              </Link>
             </div>
           </div>
         ))}
