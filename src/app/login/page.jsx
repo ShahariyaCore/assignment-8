@@ -1,5 +1,10 @@
 "use client";
 import { useState } from "react";
+import toast from "react-hot-toast";
+
+toast.success("Login successful!");
+toast.error("Invalid credentials");
+
 
 export default function LoginPage() {
   const [error, setError] = useState("");
